@@ -1,3 +1,26 @@
 h1 {
-    text-decoration: underline;
+    color: #5753C6;
+}
+
+h2 {
+    color: #5753C6;
+}
+
+body {
+    background-color: #FDFDFF;
+    color: #272962;
+}
+
+.image-container {
+    width: 15rem;
+    height: 20rem;
+    background-image: url('img/buttonLight.svg');
+    background-size: 20rem;
+    background-position: top;
+    border: thick solid #9B9EF0;
+    background-color: #F0F1FE;
+}
+
+.image-container:hover {
+    background-color: #E6E7FF;
 }
