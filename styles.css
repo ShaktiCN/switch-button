@@ -11,16 +11,13 @@ body {
     color: #272962;
 }
 
-.image-container {
-    width: 15rem;
-    height: 20rem;
-    background-image: url('img/buttonLight.svg');
-    background-size: 20rem;
-    background-position: top;
+.button {
     border: thick solid #9B9EF0;
+    border-radius: 7% / 5%;
     background-color: #F0F1FE;
+    padding: 1.5rem 2rem ;
 }
 
-.image-container:hover {
+.button:hover {
     background-color: #E6E7FF;
 }
