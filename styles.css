@@ -1,23 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Gideon Roman:700|Gideon Roman:400');
+
+
+body {
+    font-family: 'Gideon Roman';
+    font-weight: 400;
+    background-color: #FDFDFF;
+    color: #272962;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Gideon Roman';
+    font-weight: 700;
+    color: #5753C6;
+
+}
+
+
 h1 {
+    font-size: 3rem;
     color: #5753C6;
 }
 
 h2 {
-    color: #5753C6;
-}
-
-body {
-    background-color: #FDFDFF;
-    color: #272962;
+    font-size: 2rem;
 }
 
 .button {
     border: thick solid #9B9EF0;
     border-radius: 7% / 5%;
-    background-color: #F0F1FE;
-    padding: 1.5rem 2rem ;
+    background: linear-gradient(#E6E7FF, #F0F1FE);
+    padding: 1.5rem 2rem;
 }
 
 .button:hover {
     background-color: #E6E7FF;
+}
+
+a:visited {
+    color: blue;
+}
+
+.button_location {
+    display:flexbox;
+    margin-left: 15%;
+    align-items: center;
+    justify-content: center;
 }
